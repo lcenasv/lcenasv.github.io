@@ -49,6 +49,7 @@ body {
 	background-image: url('https://www.certus.edu.pe/wp-content/uploads/2019/01/instituto-certus-losolivos.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     background-position-x: center;
     background-position-y: center;
 }
