@@ -1,0 +1,29 @@
+/* estos son estilos */
+
+#titulo{
+    font-size: 10em;
+    color: blue;
+}
+
+.centrado{
+    text-align: center;
+    font-size: 10em;
+    color: brown;
+}
+
+p.demo {
+    font-size: 15em;
+    color: darkmagenta;
+}
+
+
+* {
+    font-size: small;
+    color: red;
+}
+
+
+h1, p, span {
+    font-size:small;
+    color:sandybrown;
+}
