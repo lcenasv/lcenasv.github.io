@@ -8,14 +8,15 @@
     <title>Certus Go</title>
 
 <style>
-h1{
+h2{
     color: blue;
 }
 </style>
 
 
 </head>
-<body>
+<body onload="mostrarMensaje2()">
+    
 <ul>
 <li>menu 1</li>
 <li>menu 2</li>
@@ -23,9 +24,34 @@ h1{
 </ul>
 
 
-    Certus Go 2021 - Bienvenido
+    <button style="color: chartreuse;" onclick="sumaNumeros(5, 5);">+</button>
+
+
     <h1 id="titulo">HTML</h1>
-    <h1>ESTO ES UNA PRUEBA</h1>
+
+    <p id="ejmvariables"></p>
+
+    <p id="resultadosuma"></p>
+
+    <p id="resultadoObj"></p>
+
+    <div></div>
+    <div style="float: inherit; width:50 em;">Tipo de letra y posición</div>
+
+    <img style="display: block; width: 30%; margin-right: auto; margin-left: auto;" src="img/2.png" alt="bot">
+
+
+    <h1 style="border-width: 0.2em; border-style: dotted; border-color: white;">Borde con puntos</h1><br>
+    <h1 style="border-width: 0.2em; border-style: dashed; border-color: white;">Borde con lineas</h1><br>
+    <h1 style="border-width: 0.2em; border-style: solid; border-color: white;">Borde normal</h1><br>
+    <h1 style="border-width: 0.2em; border-style: double; border-color: white;">Borde con doble línea</h1><br>
+
+    <h1 style="border-width: 0.2em; border-style: groove; border-color: white;">Borde 3D acanalado</h1><br>
+    <h1 style="border-width: 0.2em; border-style: ridge; border-color: white;">Borde 3D ondulado</h1><br>
+    <h1 style="border-width: 0.2em; border-style: inset; border-color: white;">Borde 3D interno</h1><br>
+    <h1 style="border-width: 0.2em; border-style: outset; border-color: white;">Borde 3D externo</h1><br>
+    <h1 style="border-width: 0.2em; border-style: hidden; border-color: white;">Borde 3D oculto</h1><br>
+    <h1 style="border-style: none;">sin borde</h1><br>
     <h2>HTML</h2>
     <hr>
     <h3>CSS EN LÍNEA</h3>
@@ -161,12 +187,24 @@ h1{
             <td>12345678</td>
         </tr>
         <tr>
-            <td>Lenin</td>
+            <td >Lenin</td>
             <td>Lenin</td>
             <td>87654321</td>
         </tr>
+
+            
     </table>
    
+    <script type="text/javascript" src="index.js"></script> 
+    <!-- <script>
+        // alert('Hola Mundo'); //sirve para monstrar un mensaje emergente 1.2
+        // document.getElementById('subtitulo').innerHTML="Clase de la semana 9";
+        // document.write("<div style='background-color:chartreuse;'>Bienvenido a clases</div>");
+        // console.log("mensaje en consola");
+        
+
+
     
+    </script>  -->
 </body>
 </html>
